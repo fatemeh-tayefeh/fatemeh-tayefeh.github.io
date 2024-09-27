@@ -1,0 +1,35 @@
+.backimg{
+    background-image: url(../pictures/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+}
+.icon-flesh-right{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.icon-shop{
+    cursor: pointer;
+}
+.but1hover:hover{
+    background-color: #e9e9ed;
+}
+.tabhover:hover{
+    background-color: black;
+    color: white;
+    transition: all 500ms ease 50ms;
+}
+.fontspan{
+    color: aqua;
+}
+.fontbut{
+    font-size: calc(1vw + 1px) !important;
+}
+.font-tma{
+    font-size: calc(2vw + 2px) !important;
+}
+.fonttab{
+    font-size: calc(1.5vw + 1px) !important;
+}
+
