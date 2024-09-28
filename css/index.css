@@ -1,7 +1,7 @@
 .backimg{
-    background-image: url(../pictures/1.jpg);
+    background-image: url(../pictures/10.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     height: 1500px;
 }
 .icon-flesh-right{
@@ -11,6 +11,7 @@
 }
 .icon-shop{
     cursor: pointer;
+    font-size: calc(1.7vw + 1px) !important;
 }
 .but1hover:hover{
     background-color: #e9e9ed;
@@ -30,6 +31,6 @@
     font-size: calc(2vw + 2px) !important;
 }
 .fonttab{
-    font-size: calc(1.5vw + 1px) !important;
+    font-size: calc(1.4vw + 1px) !important;
 }
 
