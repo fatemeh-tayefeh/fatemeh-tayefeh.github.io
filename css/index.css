@@ -1,7 +1,8 @@
 .backimg{
-    background-image: url(../pictures/10.jpg);
+    background-image: url(../pictures/6.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
     height: 1500px;
 }
 .icon-flesh-right{
@@ -33,4 +34,50 @@
 .fonttab{
     font-size: calc(1.4vw + 1px) !important;
 }
-
+@media all and (max-width:991px) {
+    .backimg{
+        filter: brightness(70%);
+    }
+    .font-color-white{
+        color: white;
+    }
+}
+.font-matn-tasvir{
+    font-family: sans-serif;
+}
+.pt-autoo{
+    padding-top: 500px;
+}
+.font-size-icon-box{
+    font-size: 80px;
+}
+.text-color1{
+    color: #410030;
+    font-size: 45px;
+}
+.text-color2{
+    color: #a8aa1f;
+    font-size: 45px;
+}
+.text-color3{
+    color: #1b1f52;
+    font-size: 45px;
+}
+.font-kalamat-1{
+    font-family: "Playwrite DE Grund", cursive;
+    padding-top: 80px;
+}
+.font-kalamat-2{
+    font-family: "Oswald", sans-serif;
+}
+.pt-2soton{
+    padding-top: 200px;
+}
+.icon-facebook:hover{
+    cursor: pointer;
+    font-size: 27px;
+    transition: font 300ms ease 0.1s;
+}
+.rang-bg{
+    background-color: #fd4d12;
+}
