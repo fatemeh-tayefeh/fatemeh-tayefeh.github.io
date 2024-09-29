@@ -1,5 +1,5 @@
 .backimg{
-    background-image: url(../pictures/6.jpg);
+    background-image: url(../pictures/1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -80,4 +80,44 @@
 }
 .rang-bg{
     background-color: #fd4d12;
+}
+.img-100{
+    background-image: url(../pictures/2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 700px;
+}
+.font-size-7ta-1{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+.font-size-bala-rast{
+    font-size: 12px;
+}
+.flsh-bala-rast:hover{
+    cursor: pointer;
+}
+.font-blog{
+    font-family: "Playwrite DE Grund", cursive;
+}
+.pic1-3taii{
+    background-image: url(../pictures/3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 700px;
+}
+.pic2-3taii{
+    background-image: url(../pictures/4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 700px;
+}
+.pic3-3taii{
+    background-image: url(../pictures/5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 700px;
 }
