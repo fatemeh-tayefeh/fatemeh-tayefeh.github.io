@@ -79,7 +79,10 @@
     transition: font 300ms ease 0.1s;
 }
 .rang-bg{
-    background-color: #fd4d12;
+    background-color: #f8450a;
+}
+.rang-bg-first{
+    background-color: #f1ebe9;
 }
 .img-100{
     background-image: url(../pictures/2.jpg);
@@ -120,4 +123,32 @@
     background-size:cover;
     background-position: center;
     height: 700px;
+}
+.but-paiin-3taii{
+    background-color: #202021;
+}
+.pic-matn-3taii-hover:hover{
+    cursor: pointer;
+}
+.img-101{
+    background-image: url(../pictures/6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+.flsh-rast-2:hover{
+    cursor: pointer;
+}
+.pic-keshoii{
+    filter: brightness(50%);
+}
+.pic-keshoii2{
+    font-size: calc(2vw + 1px) !important;
+}
+.pic-keshoii3{
+    font-size: calc(3vw + 4px) !important;
+}
+.font-size-akhari{
+    font-size: 50px;
 }
