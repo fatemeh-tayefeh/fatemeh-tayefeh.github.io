@@ -94,6 +94,9 @@
 .font-size-7ta-1{
     font-family: "Edu AU VIC WA NT Dots", cursive;
 }
+.font-size-7ta-2{
+    font-family: "Playwrite DE Grund", cursive;
+}
 .font-size-bala-rast{
     font-size: 12px;
 }
@@ -132,6 +135,13 @@
 }
 .img-101{
     background-image: url(../pictures/6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+.img-103{
+    background-image: url(../pictures/9.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
