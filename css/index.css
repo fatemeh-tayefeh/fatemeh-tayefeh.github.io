@@ -299,16 +299,146 @@ body {
     text-align: center;
 }
 /*part5______________________________________________________________________________________________________________*/
-.div-part5{
-    background-color: blueviolet;
-    width: 100%;
-    height: 700px;
-    margin-top: 20px;
+/*piiiiiic*/
+@media all and (max-width:991px) {
+    .div-part5-0{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        /*background-color: blueviolet;*/
+        width: 100%;
+        height: 1000px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        }
+    .div-partha{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        /*background-color: chartreuse;*/
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .pic-1-part5{
+        width: 300px;
+        background-image: url("../pictures/4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+    .pic-2-part5{
+        width: 300px;
+        background-image: url("../pictures/5.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+    .pic-3-part5{
+        width: 300px;
+        background-image: url("../pictures/6.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+    .pic-4-part5{
+        width: 300px;
+        background-image: url("../pictures/8.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+    .pic-5-part5{
+        width: 300px;
+        background-image: url("../pictures/9.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+    .pic-6-part5{
+        width: 300px;
+        background-image: url("../pictures/10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color: blue;*/
+    }
+}
+@media all and (min-width:990px) {
+    .div-part5-0{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        /*background-color: blueviolet;*/
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .div-partha{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        /*background-color: chartreuse;*/
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .pic-1-part5{
+        width: 300px;
+        background-image: url("../pictures/4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
+    .pic-2-part5{
+        width: 300px;
+        background-image: url("../pictures/5.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
+    .pic-3-part5{
+        width: 300px;
+        background-image: url("../pictures/6.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
+    .pic-4-part5{
+        width: 300px;
+        background-image: url("../pictures/8.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
+    .pic-5-part5{
+        width: 300px;
+        background-image: url("../pictures/9.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
+    .pic-6-part5{
+        width: 300px;
+        background-image: url("../pictures/10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        /*background-color: blue;*/
+    }
 }
 /*part6______________________________________________________________________________________________________________*/
 .pic-part6{
     width: 100%;
     margin-top: 20px;
+    cursor: pointer;
 }
 /*part7______________________________________________________________________________________________________________*/
 .matn-part7{
@@ -316,7 +446,7 @@ body {
     font-size: 28px;
     color: #333333;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 /*part8______________________________________________________________________________________________________________*/
 .div-part8{
