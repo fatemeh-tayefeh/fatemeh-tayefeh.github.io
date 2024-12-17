@@ -279,7 +279,6 @@ body {
 .pic-part2-2{
     width: 170px;
     margin-bottom: 20px;
-    margin-left: 350px;
 }
 .show-Consumer-part2{
     background-color: aqua;
@@ -293,14 +292,15 @@ body {
     padding-top: 10px;
     padding-left: 100px;
     background-color: white;
-    width: 800px;
+    width: 90%;
     height: 150px;
     display: flex;
     flex-direction: row;
 }
 .pic-part2-Business{
-    width: 600px;
-    margin-left: 150px;
+    display: block;
+    width: 50%;
+    align-content: center;
     margin-bottom: 20px;
     border: 3px solid red;
     border-radius: 2px;
@@ -316,12 +316,12 @@ body {
 }
 .show-Business-part2-1{
     padding-top: 10px;
-    padding-left: 100px;
     background-color: white;
-    width: 800px;
-    height: 700px;
+    width: 90%;
+    height: 600px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .show-Support-part2{
     background-color: aqua;
@@ -335,13 +335,15 @@ body {
     padding-top: 10px;
     padding-left: 100px;
     background-color: white;
-    width: 800px;
-    height: 450px;
+    width: 80%;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .pic-part2-Partner{
-    width: 700px;
+    display: block;
+    width: 50%;
     margin-left: 75px;
     margin-bottom: 20px;
     border: 3px solid red;
@@ -349,25 +351,25 @@ body {
     cursor: pointer;
     filter: saturate(2%);
 }
+.text-partner{
+    text-align: center;
+}
 .show-Partner-part2{
     background-color: aqua;
     width: 100%;
-    height: 200px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     display: none;
 }
-.text-partner{
-    text-align: center;
-}
 .show-Partner-part2-1{
     padding-top: 10px;
-    padding-left: 100px;
     background-color: white;
-    width: 800px;
-    height: 700px;
+    width: 90%;
+    height: 520px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 .show-About-part2{
     background-color: aqua;
@@ -381,7 +383,7 @@ body {
     padding-top: 10px;
     padding-left: 100px;
     background-color: white;
-    width: 800px;
+    width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -607,8 +609,7 @@ input{
 /*part6______________________________________________________________________________________________________________*/
 .pic-part6{
     width: 100%;
-    margin-top: 20px;
-    cursor: pointer;
+    margin-top: 50px;
 }
 /*part7______________________________________________________________________________________________________________*/
 .matn-part7{
