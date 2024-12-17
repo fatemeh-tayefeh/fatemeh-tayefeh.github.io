@@ -34,9 +34,6 @@ const NAV_2_PART2 = document.querySelector(".li-part2-2");
 NAV_2_PART2.addEventListener("click", function () {
     NAV_PART2_jaygozin_2.classList.toggle("show-Business-part2-1");
 })
-
-
-
 function close_modal_part2_2() {
     NAV_PART2_jaygozin_2.classList.add("hidden-part2");
 }
